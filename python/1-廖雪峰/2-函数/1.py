@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- encoding : utf-8 -*-
-# import math
+import math
 def quadratic(a, b, c):
     if not isinstance(a,(int,float)):
         raise TypeError('bad openrand type')
